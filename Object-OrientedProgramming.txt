@@ -1,0 +1,97 @@
+Object-Oriented Programming is a computer programming model
+ (a way of structuring and designing an application).
+
+Fundamentally, OOP is based on the idea that the world can be represented
+ through templates that define the properties and possible actions associated with real world things.
+
+ Overview: Example
+
+For instance: Imagine if you were trying to explain what an animal is. 
+
+ You might start with saying: 
+
+an animal has legs (or not) 
+an animal has a type of brain
+an animal eats 
+an animal sleeps
+ 
+The number of legs or type of brain an animal has would be properties
+ of that animal, while the actions (eating and sleeping) would be methods
+  an animal can carry out.
+
+OOP is focused on creating objects that contain data and functions.
+
+ 
+
+This allows us to abstract a lot of the nitty-gritty details of the code from the user, 
+making code easier to use and execute.  
+
+By grouping data and functions into well-defined areas,
+ OOP makes code clearly structured, and helps to reduce the repetition of code.
+
+
+Abstraction
+
+One of the key features of OOP is that it abstracts data. In other words,
+ only necessary data is shown to a user and we can use methods of an object 
+ without actually knowing how they work behind the scenes.
+
+As a real-world example of abstraction, think of the volume button on your
+ phone! All you need to know is pressing the button will adjust your volume. 
+ You don't need to understand any of the mechanical components of the button or the programming behind the feature.
+
+ In programming, this happens with a lot of object functions. 
+ In many languages, strings have some sort of "length" property. 
+ You know that it returns the length of the string, but you don't need to know how it calculates it.
+
+ Encapsulation
+
+Encapsulation is another fundamental tenet of OOP. 
+
+-refers to wrapping data and functions together
+-also refers to the ability to hide certain properties of an object. 
+-ensures that users cannot break the functionality of the object.
+
+Inheritance
+
+To avoid repeating code, classes in OOP can inherit from other classes. 
+This allows you to utilize features from a super class in a more specific subclass.
+
+For example, you have have a super class Vehicle that contains features
+ common to all vehicles, such as: a speed, name, and gas mileage.
+
+Then... you could make subclasses that inherit those traits.
+
+A truck still has the properties of a vehicle, but might contain more data
+ for bed storage. A Motorcycle could also contain data for the motorcycle-specific 
+ safety features.
+
+
+Polymorphism
+
+Polymorphism allows subclasses to redefine methods from their parent class.
+ This can allow for further customization within subclasses.
+
+For example, the vehicle class may have a function calculates the MPG  using a basic formula. 
+However, if a Prius subclass of vehicle needs to alter this calculation based on its specific energy-saving features, it can alter the functionality of its parent class's MPG calculator.
+
+This would only change the original function for the Prius class, but other cars 
+derived from vehicles could still use the default MPG calculator.
+
+                    SUMMARY
+
+Object-Oriented Programming is a way to organize computer programs so that data and their associated methods can be grouped together and re-used across instances. 
+
+ 
+
+The four principles of OOP are: 
+
+Abstraction: Abstracts object methods for ease of use
+
+Encapsulation: Classes group object properties with methods.
+ Properties can be shielded from a user's direct access.  
+
+Inheritance: Objects can access methods of their class and any super classes 
+
+Polymorphism: Methods can be modified/redefined to fit the particularities
+ of a specific sub-class
